@@ -1,0 +1,27 @@
+﻿{
+  "version": "1.0.1-*",
+  "testRunner": "nunit",
+  "dependencies": {
+    "dotnet-test-nunit": "3.4.0-beta-2",
+    "NSubstitute": "2.0.0-rc",
+    "NUnit": "3.5.0",
+    "Redis-32": "2.6.12.1",
+    "redlock-cs-net-core": { "target": "project" },
+    "Microsoft.Extensions.Caching.Redis": "1.1.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8"
+      ],
+
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
+        }
+      }
+    }
+  }
+}
